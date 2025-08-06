@@ -43,20 +43,11 @@ python -m venv venv
 
 ### 3. Install Dependencies
 
-Create a `requirements.txt` file with the following content:
+Make sure you have Python installed. Then, open your terminal and run:
+   ```bash
+   pip install streamlit pandas numpy scikit-learn streamlit
+   ```
 
-```txt
-pandas
-numpy
-scikit-learn
-streamlit
-```
-
-Then, install the required libraries using pip:
-
-```bash
-pip install -r requirements.txt
-```
 
 ### 4. Run the Streamlit App
 
@@ -78,6 +69,5 @@ The repository is organized as follows:
 ├── bengaluru_house_price_prediction.ipynb # Jupyter notebook with the full workflow
 ├── columns.json                       # Data columns required for prediction
 ├── streamlit_app.py                   # The Streamlit web application script
-├── requirements.txt                   # Project dependencies
 └── README.md                          # This README file
 ```
