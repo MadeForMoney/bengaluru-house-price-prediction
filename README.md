@@ -71,3 +71,5 @@ The repository is organized as follows:
 ├── streamlit_app.py                   # The Streamlit web application script
 └── README.md                          # This README file
 ```
+
+Feel free to fork and contribute!
